@@ -254,3 +254,28 @@ html {
         transform: translateY(-2000px);
     }
 }
+
+
+/* Float */
+
+.float {
+    display: inline-block;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.float:hover {
+    transform: translateY(-5px);
+}
+
+.button {
+    margin: 0.4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #ececec;
+    text-decoration: none;
+    color: #666;
+}
