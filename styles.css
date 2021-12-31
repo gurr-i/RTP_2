@@ -279,3 +279,18 @@ html {
     text-decoration: none;
     color: #666;
 }
+
+
+/* 
+.dropdown-menu-custom {
+    background-image: linear-gradient(to right, rgb(94, 13, 187), #1d51a5);
+}
+
+.dropdown-item {
+    background-image: linear-gradient(to right, rgb(94, 13, 187), #1d51a5);
+} */
+
+.dropdown-menu {
+    background-color: transparent !important;
+    /* background-color: #fff !important; */
+}
