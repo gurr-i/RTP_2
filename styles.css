@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 1cm;
+    height: 1.3cm;
     padding-left: 10px;
 }
 
@@ -261,7 +261,7 @@ body {
 
 .float {
     display: inline-block;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
     transition-property: transform;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     transform: translateZ(0);
@@ -276,9 +276,9 @@ body {
     margin: 0.4em;
     padding: 1em;
     cursor: pointer;
-    background: #ececec;
+    background: #ececec69;
     text-decoration: none;
-    color: #666;
+    color: rgba(102, 102, 102, 0.644);
 }
 
 
@@ -366,9 +366,25 @@ html {
     height: 3cm;
 }
 
-.searchbtn {
-    /* color: rgb(29, 13, 243);
+
+/* .searchbtn { */
+
+
+/* color: rgb(29, 13, 243);
     border-color: rgb(9, 12, 190); */
-    color: #ffffff6e;
+
+
+/* color: #ffffff6e;
     border-color: #ffffff73;
+} */
+
+.btn-outline-success {
+    color: #e01273;
+    border-color: #ee04a0;
+}
+
+.btn {
+    color: #ffffff78 !important;
+    border-color: #d0d9e971 !important;
+    background-color: transparent !important;
 }
