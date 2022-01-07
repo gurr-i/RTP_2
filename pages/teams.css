@@ -97,3 +97,31 @@ html {
     border-color: #bb7b5671 !important;
     background-color: transparent !important;
 }
+
+@media (max-width: 995px) {
+    .nav_div {
+        background-image: url(../images/16819429_1262086310527106_2835418273979012764_o.png);
+        height: 600px;
+        /* background-size: 40px */
+        background-repeat: no-repeat;
+        background-size: 1160px;
+    }
+    /* .btn {
+        color: #3fcc2288 !important;
+        border-color: #29e41071 !important;
+        background-color: transparent !important;
+    }
+    .button {
+        margin: 0.4em;
+        padding: 1em;
+        cursor: pointer;
+        background: #c7171769;
+        text-decoration: none;
+        color: rgba(199, 23, 23, 0.644);
+    } */
+    .navbar-nav li a {
+        color: rgba(116, 46, 8, 0.856) !important;
+        font-weight: 600;
+        /* text-align: left; */
+    }
+}
