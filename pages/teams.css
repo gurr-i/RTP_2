@@ -150,6 +150,32 @@ tr {
         font-weight: 600;
         /* text-align: left; */
     }
+    /* NNNN */
+    .a {
+        box-sizing: border-box;
+        color: rgb(64, 169, 255);
+        text-decoration-line: none;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        background-color: initial;
+        outline-color: initial;
+        outline-style: initial;
+        outline-width: 0px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        transition-property: color;
+        touch-action: manipulation;
+        font-family: "Roboto Condensed", sans-serif;
+        height: 5px;
+        /* actualWidth: 56;
+        actualHeight: 17; */
+    }
+    .user_links a {
+        height: 2px;
+    }
 }
 
 .array {
@@ -200,8 +226,8 @@ tr {
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    /* background-repeat-x: initial;
+    background-repeat-y: initial; */
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
@@ -233,8 +259,8 @@ tr {
     padding-left: 0.875;
     font-size: 1.25rem;
     box-shadow: rgba(100, 103, 105, 0.12) 0px 3px 40px;
-    actualWidth: 31.25;
-    actualHeight: 29.125;
+    /* actualWidth: 31.25;
+    actualHeight: 29.125; */
 }
 
 .team .array .team_unit .fa-linkedin-in {
@@ -256,8 +282,8 @@ tr {
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    /* background-repeat-x: initial;
+    background-repeat-y: initial; */
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
@@ -289,8 +315,8 @@ tr {
     padding-left: 0.625;
     font-size: 1.25rem;
     box-shadow: rgba(100, 103, 105, 0.12) 0px 3px 40px;
-    actualWidth: 30.75;
-    actualHeight: 29.125;
+    /* actualWidth: 30.75;
+    actualHeight: 29.125; */
 }
 
 div {
@@ -382,6 +408,10 @@ center {
     font-family: "Roboto Condensed", sans-serif;
     padding-top: 1.125;
     padding-bottom: 1.125;
-    actualWidth: 325;
-    actualHeight: 60.75;
+    /* actualWidth: 325;
+    actualHeight: 60.75; */
+}
+
+.user_links a {
+    height: 2px;
 }
