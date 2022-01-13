@@ -69,6 +69,7 @@ body {
     height: 550px;
     padding-top: 15%;
     padding-left: 0%;
+    max-width: 90% !important;
 }
 
 .wave1_img {
@@ -456,4 +457,26 @@ html {
     content: "";
     display: table;
     clear: both;
+}
+
+.container_banner {
+    /* padding-left: 54px !important;
+    padding-right: 54px !important; */
+    /* padding: 3cm !important; */
+    padding-left: 4cm!important;
+    padding-right: 4cm!important;
+}
+
+@media (max-width: 995px) {
+    .container_banner {
+        /* padding-left: 54px !important;
+        padding-right: 54px !important; */
+        /* padding: 3cm !important; */
+        padding-left: 2cm!important;
+        padding-right: 2cm!important;
+        padding-bottom: 2cm !important;
+    }
+    .col_md_2 {
+        display: none;
+    }
 }

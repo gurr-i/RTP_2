@@ -415,3 +415,45 @@ center {
 .user_links a {
     height: 2px;
 }
+
+
+/* Divider Line */
+
+
+/* // Base line */
+
+.line {
+    align-items: center;
+    margin: 1em -1em;
+}
+
+.line:before,
+.line:after {
+    height: 1px;
+    margin: 0 1em;
+}
+
+.glow:before,
+.glow:after {
+    height: 6px;
+    -webkit-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.glow:before {
+    background: linear-gradient(to right, rgba(252, 228, 14, 0.925), rgb(75, 80, 3));
+}
+
+.glow:after {
+    background: linear-gradient(to left, rgba(252, 228, 14, 0.925)e, rgb(75, 80, 3));
+}
+
+.divider {
+    display: flex;
+}
+
+.divider:before,
+.divider:after {
+    content: "";
+    flex: 1;
+}
